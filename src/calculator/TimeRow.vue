@@ -14,8 +14,8 @@
       <input type="text" @keyup="compute" v-on:blur="timeInMinuteLeave" v-on:mouseleave="timeOutMinuteLeave" v-model="timeOutMinute" maxlength="2" max="59" class="bg-white appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 rounded">
     </div>
 
-    <div class="w-32">
-      <input type="text" v-model="subTotal" class="bg-white appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 rounded">
+    <div class="w-32 flex items-center">
+      <input type="text" v-model="subTotal" class="mx-2 bg-white appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 rounded"> Hours
     </div>
   </div>
 </template>
